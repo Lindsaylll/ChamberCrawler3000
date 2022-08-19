@@ -233,7 +233,7 @@ void Game::play(string m, string loaded)
             }
         }
 
-    // cmd__:
+
         string com;
 
         cin >> com;
