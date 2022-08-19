@@ -31,13 +31,23 @@ nw #north west
 se #south east
 sw #south west
 ```
+To consume a potion:
+``` Bash
+u [dir] # where [dir] is the direction of the potion, and it is one of above move directions.
+```
+![](use_potion.png)
+To attack the enimies:
+``` Bash
+a [dir]
+```
+![](attack.png)
+
 If the player is within 1 cell of enimies, it will be attacked. \
-Stand on 'P'(potion) will consume the potion, or stand on'G'(gold) will collect the gold.
+Stand on'G'(gold) will collect the gold.
 While the player takes action, the enimies are also randomly moving to a cell adjacent to it.
 ### killed:
 ![](dead.png)
 ### won the game
-![](dead.png)
-``` Bash
-```
+![](won.png)
+
 
